@@ -5,7 +5,7 @@ import os
 
 st.set_page_config(layout="wide", page_title="BlueOps - Analytics")
 
-API_URL = st.secrets.get("API_URL", "http://127.0.0.1:8000")
+API_URL = "https://blueops-api.onrender.com"
 
 st.title("🔵 BlueOps — ML Production Demo")
 st.markdown("Model endpoint: " + API_URL)

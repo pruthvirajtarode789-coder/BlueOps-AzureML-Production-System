@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BlueOps — Azure ML Production System (Client-ready)
 
 BlueOps is a production-ready MLOps demo: end-to-end pipeline from data -> training -> model -> REST API -> Streamlit UI -> Azure ML deployment.
@@ -99,3 +100,7 @@ See Azure ML docs for exact CLI commands — they are straightforward and presen
 ---
 
 **Next steps:** Copy files, create venv, run local checklist above, and deploy!
+=======
+# BlueOps-AzureML-Production-System
+Azure ML Production System – BlueOps
+>>>>>>> a05226bcbb3a00bead0b76f8449ed0077691bdf8

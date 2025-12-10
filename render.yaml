@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: blueops-api
+    rootDir: .
+    env: docker
+    dockerfilePath: Dockerfile.api
+    plan: free
+    envVars:
+      - key: MODEL_PATH
+        value: api/model/model.joblib
+    autoDeploy: true
+
+  - type: web
+    name: blueops-ui
+    rootDir: .
+    env: docker
+    dockerfilePath: Dockerfile.streamlit
+    plan: free
+    autoDeploy: true
