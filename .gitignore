@@ -15,7 +15,8 @@ dist/
 build/
 
 # models, data
-models/
+models/*
+!models/blueops_model.pkl
 data/*.csv
 data/*.parquet
 
